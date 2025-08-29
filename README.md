@@ -1,2 +1,6 @@
-# daily-commit-012
-My twelfth daily GitHub activity repository
+def is_even(number):
+    return number % 2 == 0
+
+if __name__ == "__main__":
+    n = 42
+    print(f"Is {n} even? {is_even(n)}")
